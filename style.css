@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-400
+}
+
+.details {
+    @apply w-full lg:w-5/12 mb-4 divide-y
+}
+
+.details .summary {
+    @apply font-semibold cursor-pointer flex items-center bg-white rounded-t-lg p-4 shadow-lg
+}
+
+.details .summary svg {
+    @apply h-4 w-4 mr-1 transform transition duration-300
+}
+
+.details p {
+    @apply shadow-lg transition duration-300 bg-gray-50 rounded-b-lg px-4 py-4
+}
+
